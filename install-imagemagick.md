@@ -1,4 +1,4 @@
-# Install Imagemagick for Centos 6
+# Install Imagemagick on Centos 6
 
 1. Install ImageMagick package via YUM.
   
