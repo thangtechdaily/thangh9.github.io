@@ -3,6 +3,7 @@
 #Open php.ini file and find auto_prepend_file
 #Paste link to file (ex: auto_prepend_file = "/var/home/public_html/minify.php")
 #origin: http://jesin.tk/how-to-use-php-to-minify-html-output/
+#note: it conflict with ckeditor, i'm trying to solve it
 function minify_output($buffer){
 	$search = array(
 		'/\>[^\S ]+/s',
