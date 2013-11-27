@@ -10,7 +10,10 @@
 
 3. Install "php-pear" required for "pecl". It will install and compile ImageMagick with PHP for you.
   
-  <code>yum install php-pear
+  <code>yum install php-pear</code>
+  
+  *if you got phpize error, run this command
+  <code>yum -y install php-devel</code>
 
 4. Now, you need to install ImageMagick using pecl
   
